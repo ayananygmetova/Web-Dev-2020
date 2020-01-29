@@ -1,0 +1,133 @@
+body{
+    background-color: white;
+}
+
+#right{
+    position: absolute;
+    left:0;
+    top:0;
+    right:50%;
+    bottom: 0;
+    background-image: url(https://help.twitter.com/content/dam/help-twitter/logos/card_wide_blue.png);
+    background-size: 800px 620px;
+    background-repeat: no-repeat;
+    
+}
+#text{
+    position: absolute;
+    top: 230px;
+    left: 200px;
+    color: white;
+}
+
+.info{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+header{
+    position: absolute;
+    top: 20px;
+    left: 880px;
+}
+.icons{
+    width:30px;
+    height: 30px;
+    color: white;
+}
+
+input[type="text"], input[type="password"]{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(245,248,250);
+    border-width:0 ;
+}
+
+input[type="submit"]{
+    width: 70px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: white;
+    color:rgb(29,161,242);
+    border-color:rgb(29,161,242) ;
+    font-size: 0.9em;
+    font-weight: 700;
+    border-width: thin;
+}
+#forgpass{
+    position: absolute;
+    top: 50px;
+    left: 210px;
+    font-size: 0.87em;
+    color: rgb(29,161,242);
+}
+#join{
+    position: absolute;
+    left: 940px;
+    top: 130px;
+}
+#know{
+    margin-left: 10px;
+}
+h1{
+    font-size: 31px;
+    font-weight: bold;
+    font-family: Arial;
+}
+#bird{
+    width: 65px;
+}
+#jbuttons{
+    margin-top: 60px;
+    margin-left: 10px;
+}
+p{
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 700;
+}
+#f{
+    width: 360px;
+    height: 40px;
+    margin-bottom: 13px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(29,161,242);
+    border-width: thin;
+    border-color: rgb(29, 161, 242);
+}
+#s{
+    width: 360px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: 600;
+    border-color: rgb(29,161,242);
+    border-width: thin;
+    background-color: white;
+    color: rgb(29,161,242);
+}
+footer{
+    position: absolute;
+    left:0;
+    background-color: white;
+    top: 620px;
+    right: 0;
+    text-align: center;
+}
+a{
+    color: rgb(133, 131, 131);
+    text-decoration: none;
+}
+li{
+    display: inline;
+    list-style: none;
+    font-family: 'Arial';
+    font-size: 0.82em;
+    margin-right: 12px;
+}
+#brand{
+    color: rgb(133, 131, 131);
+    font-weight: 300;
+    font-size: 0.85em;
+}

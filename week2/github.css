@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(43,49,55);
+}
+header{
+    position:absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 680px;
+    color:white;
+    background-color: rgb(36,41,46);
+}
+#logotype{
+    width: 33px;
+    margin-left: 135px;
+    margin-top: 20px;
+}
+ul{
+    position: absolute;
+    left: 135px;
+    top: 15px;
+}
+
+li{
+    display: inline;
+    list-style: none;
+    font-size: 1.1em;
+    margin-left: 16px;
+}
+.rhead{
+    position: absolute;
+    display: flex;
+    top: 10px;
+    left: 990px;
+}
+#search{
+    margin-top: 10px;
+    width: 240px;
+    height: 35px;
+    border-radius: 4px;
+    border-width: 0ch;
+    background-color: #3f4448;
+    font-size: 0.9em;
+}
+#signword{
+    color:white;
+    font-size: 1em;
+    font-family: Arial;
+    margin: 20px 17px;
+}
+input[type="submit"]{
+    height: 35px;
+    width: 75px;
+    border-radius: 4px;
+    font-size:1em;
+    font-family: Arial;
+    margin-top: 11px;
+    border-width: thin;
+    border-color: white;
+    background-color:  rgb(36,41,46);
+    color: white;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+#left{
+    position: absolute;
+    left: 270px;
+    top:190px;
+}
+h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 500;
+    font-family: Arial;
+}
+#info{
+    margin-top: -30px;
+    color:lightgray;
+    font-size: 22px;
+    font-family: Arial;
+}
+a{
+    color: white;
+    text-decoration-color: lightgray;
+}
+#right{
+    position: absolute;
+    left: 822px;
+    top:136px;
+    width: 405px;
+    height: 470px;
+    background-color: #fafbfc;
+    padding-top: 30px;
+    padding-left: 25px;
+    display: block;
+    border-radius: 7px;
+}
+.registr{
+    width: 380px;
+    height: 40px;
+    border-radius: 5px;
+    border-width: thin;
+    margin-top: 7px;
+    background-color: #fafbfc;
+}
+p{
+    font-size: 0.74em;
+    font-family: Arial;
+    color:black;
+}
+#green{
+    text-decoration: none;
+    color: green;
+}
+.blue{
+    text-decoration: none;
+    color: blue;
+}
+button{
+    background-color: #2ebc4f;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    width: 380px;
+    height: 65px;
+    border-radius: 5px;
+    border-width: 0;
+}
+#grey{
+    margin-top: 20px;
+}
+footer{
+    position: absolute;
+    top: 700px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+}

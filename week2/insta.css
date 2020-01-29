@@ -1,0 +1,91 @@
+body{
+    background-color: #fafafa;
+}
+
+#iphone{
+    position: absolute;
+    top: 130px;
+    left: 380px;
+}
+#signIn{
+    background-color: white;
+    position: absolute;
+    padding-top:38px;
+    width: 345px;
+    height: 600px;
+    top: 40px;
+    left: 788px;
+    text-align: center;
+    color:rgb(141, 141, 141);
+}
+#Enter{
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    left: 788px;
+    top:690px;
+    width: 345px;
+    height: 60px;
+}
+#apps{
+    position: absolute;
+    left: 788px;
+    top:760px;
+    text-align: center;
+    width: 345px;
+}
+footer{
+    position: absolute;
+    top: 880px;
+    left: 200px;
+}
+li{
+    display: inline;
+    list-style: none;
+    font-size: 0.8em;
+    margin-left: 10px;
+}
+.downl{
+    width: 150px;
+}
+#blue{
+    color: #1874ca;
+}
+.blue{
+    color:rgb(7, 7, 134);
+}
+h3,h4{
+    font-weight: 400;
+}
+#cinst{
+    margin-left: 50px;
+    color:rgb(151, 148, 148);
+    font-size: 0.85em;
+}
+.logIn{
+    color: white;
+    background-color: #3897f0;
+    width: 265px;
+    height: 32px;
+    border-radius: 6px;
+    border-width: thin;
+    font-weight: bold;
+}
+input{
+    width: 265px;
+    height: 32px;
+    font-size: 0.76em;
+    border-radius: 4px;
+    border-width: thin;
+    background-color: #fafafa;
+    color: rgb(173, 172, 172);
+    margin-bottom: 5px;
+}
+#r{
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    font-weight: 500;
+    color:rgb(99, 99, 99);
+}
