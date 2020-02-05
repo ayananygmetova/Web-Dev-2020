@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ToDo</title>
+        <link rel="stylesheet" type="text/css" href="do.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <h2>ToDo List</h2>
+        </header>
+        <h1>ToDo List</h1>
+        
+		<form action="/action_page.php">
+ 		 <input type="text" name="fname" value="   New Task" id="newtask" onfocus="this.value='  '">
+
+		</form> 
+        <button onclick="row()" id="btn">Add</button>
+        <ul id="item"></ul>
+<script>
+function row(){
+    var li = document.createElement("LI");
+  
+	var x = document.createElement("INPUT");
+  	x.setAttribute("type", "checkbox");
+  	x.id = "id";
+  	li.appendChild(x)
+    
+	var label = document.createElement('label')
+	label.htmlFor = "id";
+	label.id = "text";
+
+	
+	label.appendChild(document.createTextNode(text()));
+	li.appendChild(label);
+    
+    var del = document.createElement("BUTTON");
+    del.classList.add("fa");
+    del.style.color = "red";
+    del.innerHTML = "&#xf014;"
+    li.appendChild(del);
+      document.getElementById("item").appendChild(li);
+      del.onclick = function(){
+        document.getElementById("item").removeChild(li);
+      }  
+}
+
+function text(){
+  var x = document.forms[0];
+  var txt = "";
+  var i;
+  for (i = 0; i < x.length; i++) {
+    txt = txt + x.elements[i].value;
+  }
+  return txt;
+}
+</script>
+</body>
