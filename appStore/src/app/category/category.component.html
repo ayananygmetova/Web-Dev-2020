@@ -1,0 +1,18 @@
+<div class=bar>
+<div class = "container">
+<div *ngFor="let c of categories" class="col-1-4">
+    <a [routerLink]="'/category/' +c.id">
+        <div class="module hero">
+            <h3>{{c.name}}</h3>
+        </div>
+    </a>
+</div>
+</div>
+</div>
+
+<div class="photos"><img  class="pro" src="https://www.apple.com/v/home/a/images/heroes/iphone-11-pro/hero__dvsxv8smkkgi_mediumtall.jpg"></div>
+
+<div class ="text">
+    <h1>iPhone 11 Pro</h1>
+    <h2>Pro cameras.Pro display.Pro perfomance</h2>
+</div>
